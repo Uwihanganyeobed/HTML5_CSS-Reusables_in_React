@@ -1,0 +1,29 @@
+.accordion {
+   max-width: 400px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+ }
+ 
+ h2 {
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+ }
+ 
+ p {
+   cursor: pointer;
+   padding: 10px 0;
+   border-bottom: 1px solid #ccc;
+   margin: 0;
+ }
+ 
+ .content {
+   padding: 10px 0;
+ }
+ 
+ .active {
+   font-weight: bold;
+   color: #007bff;
+ }
+ 
